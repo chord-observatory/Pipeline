@@ -1,0 +1,12 @@
+# Save as CITATION.cff in the repository. See https://citation-file-format.github.io
+cff-version: 1.2.0
+title: <package>
+message: >-
+  If you use this software, please cite it using the metadata from this file.
+type: software
+repository-code: "https://github.com/chord-observatory/<package>"
+abstract: >-
+  <one-paragraph description>
+license: MIT
+authors:
+  - name: "The CHORD Collaboration"
