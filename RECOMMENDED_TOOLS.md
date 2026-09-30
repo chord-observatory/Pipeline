@@ -32,14 +32,11 @@ build. See [templates/github/workflows/ci.yaml](templates/github/workflows/ci.ya
   docstrings), `autosummary` and `intersphinx` (to link to the caput, draco and
   numpy docs).
 - [GitHub Pages](https://pages.github.com/) to publish them, built by CI on
-  pushes to `main`. See ch_util's
-  [sphinx workflow](https://github.com/chime-experiment/ch_util/blob/main/.github/workflows/sphinx.yaml)
-  for an example.
+  pushes to `main`. 
 
 ### Command line applications
 
-[click](https://click.palletsprojects.com/). For an example see CHIME's
-[ch_pipeline](https://github.com/chime-experiment/ch_pipeline/blob/main/ch_pipeline/processing/client.py).
+[click](https://click.palletsprojects.com/). 
 
 ### Notebooks
 
