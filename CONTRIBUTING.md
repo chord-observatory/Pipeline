@@ -158,8 +158,8 @@ for uses of anything whose behaviour changes).
 
 - Use [pytest](https://docs.pytest.org/). Tests live in `tests/` and must run
   with a plain `python -m pytest`, in a few minutes at most.
-- Tests must not depend on data that only exists on a particular cluster.
-  Generate small synthetic inputs in the tests instead (see chord_util's
+- Tests may not depend on data that only exists on a particular cluster.
+  You can generate small synthetic inputs in the tests instead (see chord_util's
   `tests/xengine_testdata.py` for an example that writes fake X-engine files
   with a known answer). Make the synthetic data independently of the code it
   tests, so that a bug in that code can't hide in the test data.
