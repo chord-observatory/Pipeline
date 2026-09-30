@@ -3,9 +3,7 @@
 This is the overview project for the CHORD offline pipeline for data analysis
 and simulation. It holds the guidelines that all CHORD analysis software
 follows, and is the place to track pipeline-wide
-[issues](../../issues) and plans. It is modelled on CHIME's
-[Pipeline](https://github.com/chime-experiment/Pipeline) project, adapted to
-CHORD.
+[issues](../../issues) and plans. 
 
 ### Index
 
