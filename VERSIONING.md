@@ -2,16 +2,17 @@
 
 ## Version numbering
 
-We use the same calendar-based scheme as CHIME and the shared radiocosmology
-repositories, `major.minor.patch`:
+We use three-part version numbers: `major.minor.patch`:
 
-- **major**: the last two digits of the year
-- **minor**: the number of the month (January is 1)
-- **patch**: zero for the first release in a month, incremented for each further
-  release that month
+- **major**: the major version number is the last two digits of the current year
+- **minor**: the minor version number is the one- or two-digit number of the current month (January is 1)
+- **patch**: the patch number resets to zero for the first release made in a given month, and increments by
+one for each subsequent release made that month.
 
-For example, the first release in May 2026 is `26.5.0`, the next one that month
-`26.5.1`, and the first one in June `26.6.0`.
+For example, the first release of a package in May 2026 would have the version number `26.5.0`.
+If a second release was needed in May 2026, it would get version number `26.5.1`.  If the next
+release after that was made in June 2020, it would get version number `26.6.0`, because the patch
+number resets to zero at the start of a new month.
 
 The version says *when* a release was made, not how much changed. Whether a
 release breaks anything is recorded in its release notes (see `BREAKING CHANGE`
