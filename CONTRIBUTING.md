@@ -135,6 +135,13 @@ for uses of anything whose behaviour changes).
   with [NumPy style docstrings](https://numpydoc.readthedocs.io/en/latest/format.html)
   (`Parameters`, `Returns`, `Raises`, `Examples`, ...). Explain *why* in
   comments where the code isn't self-explanatory.
+- Follow the [PEP 8](https://peps.python.org/pep-0008/) style guide. You
+  don't need to apply it by hand: `ruff format` lays out the code
+  (black-compatible, i.e. PEP 8 with lines of up to 88 characters), and
+  `ruff check` checks the rest, including PEP 8's naming conventions (the
+  pycodestyle `E`/`W` and pep8-naming `N` rules), using the settings in the
+  repository's `pyproject.toml`. The CI checks both. What no tool can check is
+  still up to you: clear names, readable structure and useful comments.  
 - Format code with `ruff format` and keep `ruff check` clean, using the
   settings in the repository's `pyproject.toml`. The CI checks both.
 - Pipeline code should be written as `caput.pipeline` tasks, and data passed
