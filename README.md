@@ -18,16 +18,9 @@ CHORD.
 
 ### A list of relevant repositories
 
-#### CHORD
+#### Analysis, Processing and Simulation
 - [chord_pipeline](https://github.com/chord-observatory/chord_pipeline):
   CHORD pipeline tasks, containers and telescope models
-- [chord_util](https://github.com/chord-observatory/chord_util) (private):
-  general CHORD utilities, including `andata` for reading the X-engine data
-- [kotekan](https://github.com/kotekan/kotekan) (branch `chord`): the real-time
-  X-engine and receiver software, which writes the visibility files the
-  pipeline reads. Its `docs/sphinx/user/file_formats/` documents the file format.
-
-#### Shared with CHIME (radiocosmology)
 - [caput](https://github.com/radiocosmology/caput): cluster astronomical Python
   utilities, including the pipeline framework (`caput.pipeline`) and containers
   ([docs](https://caput.readthedocs.io/))
@@ -42,12 +35,9 @@ CHORD.
 - [fluxcat](https://github.com/radiocosmology/fluxcat): catalogs of the measured
   flux densities of astronomical sources
 
-Changes that are not CHORD specific belong upstream in these repositories, not
-in CHORD forks. Please add any CHORD repository that is missing from this list.
+#### Utilities
+- [chord_util](https://github.com/chord-observatory/chord_util):
+  general CHORD utilities, including `andata` for reading the X-engine data
 
-#### CHIME repositories without a CHORD counterpart (yet)
-- `ch_ephem` (observer location and ephemeris): the CHORD location currently
-  lives in `chord_pipeline.core.telescope`
-- `chimedb.*` (data index, flags, datasets): CHORD has no database yet
-- `mkchimeenv` (environment setup): CHORD uses `mkvenv.sh` in chord_pipeline
-- `RTPipeline`, `Simulations`, `Analysis` (tracking projects)
+#### CHORD database
+- To be added
