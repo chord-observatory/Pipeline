@@ -84,7 +84,7 @@ through a pull request (PR).
    your branch with `git merge origin/main` (or rebase, if nobody else has used
    the branch).
 
-Don't use long-lived, person-specific branches (e.g. `richard-dev`), and never
+Don't use long-lived, person-specific branches (e.g. `ac-dev`), and never
 commit directly to `main` (it is protected, see below).
 
 ### After your pull request is merged
@@ -140,10 +140,7 @@ for uses of anything whose behaviour changes).
   (black-compatible, i.e. PEP 8 with lines of up to 88 characters), and
   `ruff check` checks the rest, including PEP 8's naming conventions (the
   pycodestyle `E`/`W` and pep8-naming `N` rules), using the settings in the
-  repository's `pyproject.toml`. The CI checks both. What no tool can check is
-  still up to you: clear names, readable structure and useful comments.  
-- Format code with `ruff format` and keep `ruff check` clean, using the
-  settings in the repository's `pyproject.toml`. The CI checks both.
+  repository's `pyproject.toml`. The CI checks both.   
 - Pipeline code should be written as `caput.pipeline` tasks, and data passed
   between tasks in `caput`/`draco` containers, so that tasks from the different
   repositories work together.
