@@ -40,8 +40,7 @@ THE SOFTWARE.
 These rules apply to every repository in the
 [list on the index page](README.md#a-list-of-relevant-repositories) that is
 owned by CHORD. For the shared radiocosmology repositories (caput, draco,
-driftscan, cora, fluxcat) follow their own guidelines, which are the same as
-CHIME's.
+driftscan, cora, fluxcat) follow their own guidelines.
 
 ## <a name="workflow"></a> Workflow
 
